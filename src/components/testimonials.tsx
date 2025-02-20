@@ -63,7 +63,7 @@ export default function Testimonials(){
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Our Community Says</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Hear from our students and parents about their experiences at our school. <br />
-            We're proud to have a supportive community that values education and growth.
+            We&apos;re proud to have a supportive community that values education and growth.
           </p>
         </motion.div>
 
@@ -105,7 +105,7 @@ export default function Testimonials(){
                 ))}
               </div>
 
-              <p className="text-gray-600 italic">"{testimonial.quote}"</p>
+              <p className="text-gray-600 italic">&lsquo;{testimonial.quote}&rsquo;</p>
 
               <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-300 to-[#32cd32] transform scale-x-0 group-hover:scale-x-95 transition-transform duration-300" />
             </motion.div>

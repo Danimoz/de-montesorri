@@ -19,7 +19,7 @@ export default function About() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-semibold text-primary-600 mb-4">Our Mission</h2>
               <p className="text-gray-600">
-                To nurture each child's natural desire to learn, explore, and grow in a prepared environment that fosters independence, self-discipline, and joy in learning.
+                To nurture each child&apos;s natural desire to learn, explore, and grow in a prepared environment that fosters independence, self-discipline, and joy in learning.
               </p>
             </div>
           </div>
