@@ -10,7 +10,6 @@ const lato = Lato({
   weight: ['400', '700', '900'],
   subsets: ["latin"],
   display: 'swap',
-  fallback: []
 });
 
 export const metadata: Metadata = {
