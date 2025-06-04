@@ -2,10 +2,10 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion";
-import HeroImg from '@images/steptodown.com307454.jpg';
+import HeroImg from '@images/97482e88.jpg'
 import Link from "next/link";
 
-export default function HeroComponent(){
+export default function HeroComponent() {
   return (
     <section className="relative h-[80vh] bg-gradient-to-r from-pink-400/90 to-pink-600/90">
       <Image

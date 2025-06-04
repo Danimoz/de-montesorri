@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import GradImage from '@images/pexels-amos-getanda-244415932-12497062.jpg'
+import GradImage from '@images/teachersndStudents.jpg'
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -24,6 +24,14 @@ const activities = [
     title: "State-of-the-Art Facilities",
     description: "Our modern campus provides the perfect environment for learning and development.",
   },
+  {
+    title: "Educational Excursions",
+    description: "Regular field trips and excursions that enhance learning through real-world experiences.",
+  },
+  {
+    title: "Career Development",
+    description: "Annual career days expose students to various professions and future opportunities.",
+  },
 ]
 
 export default function WelcomeSection() {
@@ -34,7 +42,7 @@ export default function WelcomeSection() {
           <h3 className="text-2xl text-pink-400 mb-4">Distance Learning</h3>
           <h2 className="text-4xl font-bold mb-6">Welcome to School</h2>
           <p className="text-gray-600 text-xl mb-6">
-            Welcome to De Montessori Care International School, a leading primary and nursery school edicated to providing a hgh quality education.
+            Welcome to De Montessori Care International School, a leading primary and nursery school dedicated to providing a high quality education.
             Our school is committed to creating a safe, inclusive, and supportive learning environment that allows our students to thrive.
             <br /><br />
             Browse our website to learn more about our programs, and feel free to reach out with any questions.
@@ -47,11 +55,11 @@ export default function WelcomeSection() {
             MORE INFO
           </motion.button>
         </motion.div>
-        <motion.div {...fadeInUp}>
+        <motion.div {...fadeInUp} className="h-[24rem]">
           <Image
             src={GradImage}
             alt="Student studying"
-            className="rounded-lg"
+            className="rounded-lg w-full h-full object-cover"
           />
         </motion.div>
       </div>
