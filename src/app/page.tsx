@@ -30,7 +30,7 @@ export default function Home() {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h2 className="text-3xl font-bold mb-4">Nursery Section</h2>
                 <p className="text-lg mb-6 leading-relaxed">
-                  "Tiny tots, big dreams! Planting seeds of knowledge in our nursery class garden 🌱 ✨ #LittleLearners #GrowingMinds"
+                  &ldquo;Tiny tots, big dreams! Planting seeds of knowledge in our nursery class garden 🌱 ✨ #LittleLearners #GrowingMinds&rdquo;
                 </p>
                 <Link href="/about">
                   <button className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
@@ -53,7 +53,7 @@ export default function Home() {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h2 className="text-3xl font-bold mb-4">Primary Section</h2>
                 <p className="text-lg mb-6 leading-relaxed">
-                  "Unlocking potential, shaping futures! Join us in empowering young minds through quality education and holistic development."
+                  &ldquo;Unlocking potential, shaping futures! Join us in empowering young minds through quality education and holistic development.&rdquo;
                 </p>
                 <Link href="/about">
                   <button className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
@@ -72,7 +72,7 @@ export default function Home() {
             From our nurturing nursery environment where tiny tots begin their learning journey,
             to our comprehensive primary education that shapes young minds for the future,
             De Montessori Care International School provides exceptional educational experiences
-            tailored to each child's developmental stage.
+            tailored to each child&apos;s developmental stage.
           </p>
         </div>
       </section>
